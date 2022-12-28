@@ -1,0 +1,6 @@
+local Access = {"Ja_ev2", "User of wl"}
+if not table.find(Access, game:GetService("Players").LocalPlayer.Name) then 
+game:GetService("Players").LocalPlayer:Kick("Access not granted")
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaynna/Wiz-Hub/main/Wiz%20Hub",true))();
